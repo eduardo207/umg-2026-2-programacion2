@@ -1,3 +1,4 @@
+
 package edu.umg.progra2;
 
 public class Perro extends Animal {
@@ -7,5 +8,10 @@ public class Perro extends Animal {
 	public void ladrar() {
 		System.out.println("El " + nombre + " esta ladrando");
 	}
+	
+	public void correr() {
+		System.out.println("El " + nombre + " esta corriendo, porque tiene: " + cantidadPatas + " patas.");
+	}
 }
 
+	
