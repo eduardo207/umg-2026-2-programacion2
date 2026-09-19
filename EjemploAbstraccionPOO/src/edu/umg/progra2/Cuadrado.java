@@ -10,3 +10,4 @@ public class Cuadrado extends Figura {
 		return lado * lado;
 	}
 }
+
