@@ -6,6 +6,7 @@ public class Cuadrado extends Figura {
 	
 	// void: significa que no va a retornar ningun valor la función
 	// string, int, double, boolean significa que debe retornar un valor del tipo que estoy declarando
+	@Override
 	public double calcularArea() {
 		return lado * lado;
 	}
